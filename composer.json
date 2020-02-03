@@ -1,0 +1,19 @@
+{
+    "name": "automattic/jetpack-connect-simple",
+    "description": "Super simple plugin for connecting Jetpack via its connection package",
+    "type": "package",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Automattic, Inc.",
+            "email": "support@jetpack.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"automattic/jetpack-autoloader": "dev-master",
+        "automattic/jetpack-connection": "dev-master",
+        "automattic/jetpack-tracking": "dev-master",
+        "automattic/jetpack-config": "dev-master"
+    }
+}
